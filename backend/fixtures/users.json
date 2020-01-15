@@ -1,0 +1,42 @@
+[
+{
+  "model": "users.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "avatar": "avatars/foto_rafa_huelin_XRzTcda.jpeg"
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "avatar": "avatars/bronze_user.png"
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 3,
+  "fields": {
+    "user": 5,
+    "avatar": "avatar.png"
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 4,
+  "fields": {
+    "user": 3,
+    "avatar": "avatars/silver_user.png"
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "avatar": "avatars/gold_user.png"
+  }
+}
+]

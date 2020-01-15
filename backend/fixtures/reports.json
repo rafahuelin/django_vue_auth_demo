@@ -1,0 +1,47 @@
+[
+{
+  "model": "reports.report",
+  "pk": "08321771-84bc-47d5-8a53-bf6ebdf40bcb",
+  "fields": {
+    "title": "Gold Report",
+    "content": "This is the Gold Report",
+    "minimum_access_level": "gold"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": "4d8760eb-50e5-430b-ab68-68a04d3d4825",
+  "fields": {
+    "title": "Bronze Report",
+    "content": "This is the Bronze Report",
+    "minimum_access_level": "bronze"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": "874a9f89-8697-4a2e-a24b-a84c374787ec",
+  "fields": {
+    "title": "Free Report",
+    "content": "This is the Free Report",
+    "minimum_access_level": "free"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": "adb500db-73f7-4e53-b47c-130f3bf1da40",
+  "fields": {
+    "title": "New Silver Report",
+    "content": "new silver report",
+    "minimum_access_level": "silver"
+  }
+},
+{
+  "model": "reports.report",
+  "pk": "fea316fa-6863-40de-82b3-7bab131f81c9",
+  "fields": {
+    "title": "Silver Report",
+    "content": "This is the Silver Report",
+    "minimum_access_level": "silver"
+  }
+}
+]
