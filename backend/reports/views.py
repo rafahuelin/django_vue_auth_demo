@@ -13,9 +13,9 @@ def access_level_queryset(self):
     elif 'silver' in group_names:
         queryset = Report.objects.exclude(minimum_access_level='gold')
     elif 'bronze' in group_names:
-        queryset = Report.objects.filter(minimum_access_level__in='bronze')
+        queryset = Report.objects.filter(minimum_access_level='bronze')
     else:
-        queryset = None
+        queryset = Report.objects.exclue(minimum_access_level__in=group_names)
         
     return queryset
 
